@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uni.barcodescanner.MainActivity"
+    android:background="@android:color/background_light">
+
+    <SurfaceView
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/camera_view"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/code_info"
+        android:layout_toRightOf="@+id/camera_view"
+        android:textSize="24sp"
+        android:layout_marginLeft="16dp"
+        android:text="Kein Code gefunden."
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/code_info"
+        android:layout_alignStart="@+id/code_info"
+        android:layout_below="@+id/code_info"
+        android:background="#8aa1c5"
+        android:backgroundTint="#91a2d5"/>
+
+
+</RelativeLayout>

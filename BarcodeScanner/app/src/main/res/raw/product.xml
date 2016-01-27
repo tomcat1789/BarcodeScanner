@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<data>
+    <e4000417603005>
+        <Artikelbezeichnung>Rittersport</Artikelbezeichnung>
+        <Sorte>Vollmilch</Sorte>
+        <Inhalt>250g</Inhalt>
+        <Hersteller>Alfred Ritter GmbH</Hersteller>
+        <Herkunft>Deutschland</Herkunft>
+    </e4000417603005>
+
+    <e20012274>
+        <Artikelbezeichnung>Belgische Meeresfrüchte</Artikelbezeichnung>
+        <Inhalt>250g</Inhalt>
+        <Hersteller>Aimee BVBA</Hersteller>
+        <Herkunft>Belgien</Herkunft>
+    </e20012274>
+
+    <e5000112546415>
+        <Artikelbezeichnung>Coca Cola</Artikelbezeichnung>
+        <Inhalt>1,25l</Inhalt>
+        <Hersteller>CocaCola Erfr.getr. AG</Hersteller>
+        <Herkunft>Deutschland</Herkunft>
+    </e5000112546415>
+</data>
